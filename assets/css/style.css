@@ -1,0 +1,186 @@
+/* ====== font ====== */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* ====== typography ====== */
+h1, h2 {text-transform: uppercase;}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 900;
+  margin-bottom: 24px;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 6px;
+  color: #33A8DB;
+  margin-bottom: 32px;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+/* ====== reused style ====== */
+header,
+footer {padding: 0 20px;}
+
+header,
+section {border-bottom: 1px solid #33A8DB;}
+
+section {padding: 80px 20px;}
+
+#course-content,
+#professional-challenges {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#course-content h2,
+#professional-challenges h2,
+#course-content p,
+#professional-challenges p {width: 60%;}
+
+/* ====== header ====== */
+.banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.50) 0%, rgba(51, 168, 219, 0.15) 50%, rgba(0, 0, 0, 0.08) 100%), url('../images/banner.png') no-repeat center;
+  background-position: center center;
+}
+
+.banner-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 60px 0 70px;
+}
+
+.banner-content .logo {
+  width: 268px;
+  height: 268px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.banner-content h1 {
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+  color: transparent;
+}
+
+.banner-content p {
+  font-size: 1.25rem;
+  width: 50%;
+}
+
+.banner-content button {
+  color: #31A8DD;
+  border: 2px solid;
+  border-image: linear-gradient(to bottom, #3BA1CD 0%, #1572B7 100%) 1;
+  padding: 20px 44px;
+  margin-top: 24px;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.banner-content button:hover {
+  background: linear-gradient(to bottom, #3BA1CD 0%, #1572B7 100%);
+  color: #FFFFFF;
+}
+
+/* ====== section course ====== */
+.modules-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+}
+
+.modules-list .module {
+  margin-top: 24px;
+  background-color: #252525;
+  border: 1px solid #33A8DB;
+  width: 100%;
+  padding: 16px;
+  border-radius: 50px;
+  -webkit-box-shadow: -2px 6px 4px 0px #00000066 inset;
+  box-shadow: -2px 6px 4px 0px #00000066 inset;
+}
+
+.module span {color: #33A8DB;}
+
+/* ====== section transform world ====== */
+#transform-world {
+  background: url('../images/woman-code.png') no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 370px;
+  position: relative;
+}
+
+#transform-world p {
+  font-size: 2.5rem;
+  font-weight: 900;
+  text-transform: lowercase;
+  text-shadow: 3px 2px #33A8DB;
+  width: 19%;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* ====== secion professional challenges ====== */
+#professional-challenges img {
+  -o-object-fit: contain;
+  object-fit: contain;
+  margin-bottom: 40px;
+}
+
+/* ====== footer ====== */
+footer {
+  background: linear-gradient(180deg, rgba(51, 168, 219, 0) 0%, rgba(51, 168, 219, 0.2) 99.99%, rgba(51, 168, 219, 0.2) 100%);
+  padding: 60px 40px;
+  text-align: center;
+}
+
+footer p {margin-top: 12px;}
+
+/* ====== media querie ====== */
+@media screen and (max-width: 992px) {
+
+  .banner-content p,
+  #course-content h2,
+  #professional-challenges h2,
+  #course-content p,
+  #professional-challenges p,
+  .modules-list {width: 100%;}
+
+  #transform-world p {
+    width: 100%;
+    word-wrap: break-word;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+}
