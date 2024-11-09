@@ -3,7 +3,7 @@
 Bem vindo(a) ao primeiro desafio da Trilha de CSS da DIO! Nela, você vai construir Landing Page com HTML e CSS, colocando em prática os fundamentos do CSS,
 as propriedades básicas da linguagem de estilização, além de trabalhar com as unidades de medidas relativas e absolutas que aprendemos ao longo da trilha.
 
-[![Link do Projeto](https://img.shields.io/badge/▶-000?style=for-the-badge&logo=movie&logoColor=E94D5F)](https://desafio-01-dio-landing-page.netlify.app/)  
+[![Link do Projeto](https://img.shields.io/badge/▶-000?style=for-the-badge&logo=movie&logoColor=E94D5F)](https://desafio-01-dio-landing-page.netlify.app/)
 [![Link do Projeto](https://img.shields.io/badge/Acesse%20o%20Projeto-E94D5F?style=for-the-badge)](https://desafio-01-dio-landing-page.netlify.app/)
 
 ## 🎯 Objetivo
@@ -12,7 +12,7 @@ O principal objetivo deste projeto é aplicar os conceitos aprendidos sobre CSS 
 
 ## 🛠️ Recursos
 
-![HTML 5](https://img.shields.io/badge/HTML5-333333?style=for-the-badge&logo=html5)  
+![HTML 5](https://img.shields.io/badge/HTML5-333333?style=for-the-badge&logo=html5)
 ![CSS 3](https://img.shields.io/badge/CSS3-333333?style=for-the-badge&logo=css3&logoColor=1572B6)
 
 ## ✨ Funcionalidades
